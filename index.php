@@ -37,18 +37,17 @@
 <?php
 
 echo '<div class="secondary-name"><h1><a class="" href="/">Department of History</a></h1></div>';
+
+// echo '<button onclick= "split.forEach(splitFunction)">Split it!</button>';
+
+echo '<p id="demo"></p>';
+
+echo '<p id="demoTwo"></p>';
+
+echo '<p id="demoThree"></p>';
 ?>
 
-<script> 
-  var myHeading = document.querySelector('h1');
-myHeading.textContent = 'Hello world!';
-// jQuery(document).ready(function(){
-//     jQuery(".secondary-name a").html(function(index, oldHtml) {
-//         var split = oldHtml.split(' ');
-//         return split[0] + ' <span class="connector"> ' + split[1] + ' </span> ' + split[2];
-//     });    
-// });</script>
-<!-- <script src="split.js"></script> -->
+<script src="split.js"></script>
 </body>
 </html>
 
