@@ -38,13 +38,15 @@
 
 echo '<div class="secondary-name"><h1><a class="" href="/">Department of History</a></h1></div>';
 
-// echo '<button onclick= "split.forEach(splitFunction)">Split it!</button>';
-
 echo '<p id="demo"></p>';
 
 echo '<p id="demoTwo"></p>';
 
 echo '<p id="demoThree"></p>';
+
+echo '<p id="demoFour"></p>';
+
+echo '<p id="demoFive"></p>';
 ?>
 
 <script src="split.js"></script>
