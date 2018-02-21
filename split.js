@@ -1,15 +1,18 @@
 var heading = document.querySelector('.secondary-name a').innerHTML;
 var split = heading.split(" ");
-var words = ["of", "Of", "and", "And", "is", "Is"];
+var words = ["of", "Of", "and", "And", "is", "Is", "she", "She"];
 
 for (var i = 0; i < split.length; i++) {
     for (var j = 0; j < words.length; j++) {
         if (split[i] == words[j]) {
             split[i] = "<span class='connector'>" + split[i] + "</span>";
-            //demoFive.innerHTML = split[i];
         }
     }
 }
+
+document.getElementById("demoTwo").innerHTML = split.join(' ');
+
+//document.querySelector('.secondary-name a').innerHTML split.join(' ');
 
 //console.log(split);
 

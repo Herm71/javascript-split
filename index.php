@@ -40,7 +40,8 @@ echo '<div class="secondary-name"><h1><a class="" href="/">Of Mice And Men Is Wh
 
 echo '<p id="demo"></p>';
 
-echo '<p id="demoTwo"></p>';
+echo '<div class="secondary-name"><h1><a id="demoTwo" class="" href="/">Of Mice And Men Is What She Said</a></h1></div>';
+
 
 echo '<p id="demoThree"></p>';
 
