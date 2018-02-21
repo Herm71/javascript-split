@@ -22,7 +22,7 @@
    }
    .connector {
        font-family: "EB Garamond", serif;
-       text-transform: none;
+       text-transform: lowercase;
        line-height: 1.2;
        font-size: 22.5px;
        color: #333;
@@ -36,18 +36,9 @@
 <body>
 <?php
 
-echo '<div class="secondary-name"><h1><a class="" href="/">Of Mice And Men Is What She Said</a></h1></div>';
+echo '<div class="secondary-name"><h1><a class="" href="/">Department Of History</a></h1></div>';
 
 echo '<p id="demo"></p>';
-
-echo '<div class="secondary-name"><h1><a id="demoTwo" class="" href="/">Of Mice And Men Is What She Said</a></h1></div>';
-
-
-echo '<p id="demoThree"></p>';
-
-echo '<p id="demoFour"></p>';
-
-echo '<p id="demoFive"></p>';
 ?>
 
 <script src="split.js"></script>

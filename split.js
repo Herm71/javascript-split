@@ -10,56 +10,8 @@ for (var i = 0; i < split.length; i++) {
     }
 }
 
-document.getElementById("demoTwo").innerHTML = split.join(' ');
+var newHeading = split.join(' ');
 
-//document.querySelector('.secondary-name a').innerHTML split.join(' ');
-
+//document.getElementById("demo").innerHTML = newHeading;
+document.querySelector('.secondary-name a').innerHTML = newHeading;
 //console.log(split);
-
-// document.getElementById("demo").innerHTML = split;
-// //demo = document.getElementById("demo");
-// demoTwo = document.getElementById("demoTwo");
-// demoThree = document.getElementById("demoThree");
-// demoFour = document.getElementById("demoFour");
-// demoFive = document.getElementById("demoFive");
-
-// function splitFunction() {
-//     demo.innerHTML = demo.innerHTML + split;
-// }
-
-// function splitFunction1(item, index) {
-//     demoTwo.innerHTML = demoTwo.innerHTML + "[" + index + "]:" + item + "<br>";
-// }
-
-// function splitFunction2(item, index) {
-//     if (item == "of") {
-//         demoThree.innerHTML = demoThree.innerHTML + "true![" + index + "]<br>";
-//     } else {
-//         demoThree.innerHTML = demoThree.innerHTML + "Keep trying";
-//     }
-
-// }
-
-// split.forEach(splitFunction1);
-
-// split.forEach(splitFunction2);
-
-// var found = false;
-// for (var i = 0; i < split.length && !found; i++) {
-//     if (words.indexOf(split[i])) {
-//         //found = true;
-//         split[i] = "<span class='connector'>" + split[i] + "</span>";
-//         demoFour.innerHTML = split[i];
-//         // break;
-//     }
-// }
-//old works
-// var found = false;
-// for (var i = 0; i < split.length && !found; i++) {
-//     if (split[i] === "of") {
-//         //found = true;
-//         split[i] = "<span class='connector'>" + split[i] + "</span>";
-//         demoM.innerHTML = split[i];
-//         // break;
-//     }
-// }
