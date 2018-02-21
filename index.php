@@ -36,7 +36,7 @@
 <body>
 <?php
 
-echo '<div class="secondary-name"><h1><a class="" href="/">Department of History</a></h1></div>';
+echo '<div class="secondary-name"><h1><a class="" href="/">Of Mice And Men Is What She Said</a></h1></div>';
 
 echo '<p id="demo"></p>';
 
