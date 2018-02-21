@@ -36,12 +36,10 @@
 <body>
 <?php
 
-echo '<div class="secondary-name"><h1><a class="" href="/">Department Of History</a></h1></div>';
+echo '<div class="secondary-name"><h1><a class="" href="/">Department Of Science and Industry</a></h1></div>';
 
-echo '<p id="demo"></p>';
 ?>
 
 <script src="split.js"></script>
 </body>
 </html>
-

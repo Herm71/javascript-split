@@ -12,6 +12,5 @@ for (var i = 0; i < split.length; i++) {
 
 var newHeading = split.join(' ');
 
-//document.getElementById("demo").innerHTML = newHeading;
 document.querySelector('.secondary-name a').innerHTML = newHeading;
 //console.log(split);
