@@ -3,36 +3,40 @@ var split = heading.split(" ");
 
 var words = ["of", "and", "is"];
 
-
-demoP = document.getElementById("demoTwo");
 document.getElementById("demo").innerHTML = split;
-demoL = document.getElementById("demoThree");
-demoM = document.getElementById("demoFour");
-demoN = document.getElementById("demoFive");
+//demo = document.getElementById("demo");
+demoTwo = document.getElementById("demoTwo");
+demoThree = document.getElementById("demoThree");
+demoFour = document.getElementById("demoFour");
+demoFive = document.getElementById("demoFive");
 
-function splitFunction(item, index) {
-    demoP.innerHTML = demoP.innerHTML + "[" + index + "]:" + item + "<br>";
+function splitFunction() {
+    demo.innerHTML = demo.innerHTML + split;
+}
+
+function splitFunction1(item, index) {
+    demoTwo.innerHTML = demoTwo.innerHTML + "[" + index + "]:" + item + "<br>";
 }
 
 function splitFunction2(item, index) {
-    if (item == words) {
-        demoL.innerHTML = demoL.innerHTML + "true![" + index + "]<br>";
+    if (item == "of") {
+        demoThree.innerHTML = demoThree.innerHTML + "true![" + index + "]<br>";
     } else {
-        demoL.innerHTML = demoL.innerHTML + "Keep trying";
+        demoThree.innerHTML = demoThree.innerHTML + "Keep trying";
     }
 
 }
 
-words.forEach(splitFunction);
+split.forEach(splitFunction1);
 
 split.forEach(splitFunction2);
 
 var found = false;
 for (var i = 0; i < split.length && !found; i++) {
-    if (split[i] === "of") {
+    if (words.indexOf(split[i])) {
         //found = true;
         split[i] = "<span class='connector'>" + split[i] + "</span>";
-        demoM.innerHTML = split[i];
+        demoFour.innerHTML = split[i];
         // break;
     }
 }
@@ -41,7 +45,7 @@ for (var i = 0; i < split.length; i++) {
     for (var j = 0; j < words.length; j++) {
         if (split[i] == words[j]) {
             split[i] = "<span class='new-font'>" + split[i] + "</span>";
-            demoN.innerHTML = split[i];
+            demoFive.innerHTML = split[i];
         }
     }
 }
