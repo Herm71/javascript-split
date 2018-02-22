@@ -22,6 +22,7 @@
    }
    .connector {
        font-family: "EB Garamond", serif;
+       font-family: Georgia, serif;
        text-transform: lowercase;
        line-height: 1.2;
        font-size: 22.5px;
